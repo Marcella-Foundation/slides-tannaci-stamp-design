@@ -256,8 +256,9 @@
     <ol class="steps">
       <li class="panel step reveal" data-step="1"><span class="n">1</span><div>Open a photo editor like <b>Photopea</b> <span class="url">photopea.com</span></div></li>
       <li class="panel step reveal" data-step="2"><span class="n">2</span><div>Create a design that is <b>strictly black &amp; white</b></div></li>
-      <li class="panel step reveal" data-step="3"><span class="n">3</span><div>Imported an image? Convert it to B/W:<br><span class="menu"><span class="crumb">Image</span><i>›</i><span class="crumb">Adjustments</span><i>›</i><span class="crumb">Black &amp; White</span></span></div></li>
-      <li class="panel step reveal" data-step="4"><span class="n">4</span><div>Export it and upload to <b>Google Drive</b></div></li>
+      <li class="panel step reveal" data-step="3"><span class="n">3</span><div>Imported an image? Make it pure black &amp; white:<br><span class="menu"><span class="crumb">Image</span><i>›</i><span class="crumb">Adjustments</span><i>›</i><span class="crumb">Threshold</span></span><br>then drag the slider until lines are solid</div></li>
+      <li class="panel step reveal" data-step="4"><span class="n">4</span><div>Export as <b>PNG</b> or <b>JPG</b>:<br><span class="menu"><span class="crumb">File</span><i>›</i><span class="crumb">Export as</span><i>›</i><span class="crumb">PNG</span></span></div></li>
+      <li class="panel step reveal" data-step="5"><span class="n">5</span><div>Name the file with <b>your names</b>, then upload to <b>Google Drive</b></div></li>
     </ol>
   </div>
 </div>
@@ -266,7 +267,7 @@
   // Deck step protocol: the deck sends {deck:'step', dir} and {deck:'enter', at}.
   // We reply {deck:'advance', dir} once this slide has no more reveals in that direction.
   const items = document.querySelectorAll('[data-step]');
-  const MAX = 4;
+  const MAX = 5;
   let step = 0;
 
   function render() {

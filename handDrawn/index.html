@@ -261,8 +261,9 @@
       <li class="panel step reveal" data-step="2"><span class="n">2</span><div><b>No colors.</b> Black &amp; white only</div></li>
       <li class="panel step reveal" data-step="3"><span class="n">3</span><div>Draw your design</div></li>
       <li class="panel step reveal" data-step="4"><span class="n">4</span><div>Take a picture with your phone</div></li>
-      <li class="panel step reveal" data-step="5"><span class="n">5</span><div>Crop &amp; edit (contrast, etc.) until it&rsquo;s <b>just black &amp; white</b>: no background, no smudges</div></li>
-      <li class="panel step reveal" data-step="6"><span class="n">6</span><div>Upload your image to <b>Google Drive</b></div></li>
+      <li class="panel step reveal" data-step="5"><span class="n">5</span><div><b>Crop</b> so only your drawing is left: no table, no paper edges</div></li>
+      <li class="panel step reveal" data-step="6"><span class="n">6</span><div>Edit the <b>contrast &amp; brightness</b> until the paper is pure white and your lines are solid black: no gray, no shadows</div></li>
+      <li class="panel step reveal" data-step="7"><span class="n">7</span><div>Name the file with <b>your names</b>, then upload to <b>Google Drive</b></div></li>
     </ol>
   </div>
 </div>
@@ -271,7 +272,7 @@
   // Deck step protocol: the deck sends {deck:'step', dir} and {deck:'enter', at}.
   // We reply {deck:'advance', dir} once this slide has no more reveals in that direction.
   const items = document.querySelectorAll('[data-step]');
-  const MAX = 6;
+  const MAX = 7;
   let step = 0;
 
   function render() {
