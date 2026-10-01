@@ -1,5 +1,7 @@
-Plan for this two hour session:
+Stamp design session (~10 min talk):
 
-- 3:45 - 4:05 (20 min): Review Intro to Lasers & How to generate a trading card
-- 4:05 - 4:45 (40 min): People who finished designs start fabricating on the laser. Others create their designs… (40 min)
-- 4:45 - 5:45 (60 min): Laser Exploration Worksheet
+- The Atrium intro
+- The plan: design a stamp as a team today, fabricate it in rubber next Friday
+- Things to know: 1.5"–2" size, invert, flip horizontally
+- Three ways to design: hand-drawn, digitally drawn (Photopea), AI generated
+- Check the design is valid, then upload to Google Drive
